@@ -1,0 +1,45 @@
+{
+  "mcpServers": {
+    "tum-insurance-ai": {
+      "tools": [
+        {
+          "name": "query_api3_claim_feed",
+          "description": "Queries API3 First-Party dAPI data feeds to verify external casualty trigger",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "feed_identifier": {
+                "type": "string"
+              },
+              "target_metric": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "feed_identifier"
+            ]
+          }
+        },
+        {
+          "name": "adjudicate_agent_liability",
+          "description": "Adjudicates autonomous AI-agent liability claim and approves indemnity release",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "agent_address": {
+                "type": "string"
+              },
+              "damage_amount": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "agent_address",
+              "damage_amount"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
