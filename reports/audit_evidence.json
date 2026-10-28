@@ -1,0 +1,10 @@
+{
+  "project": "tum-insurance-ai",
+  "commit_sha": "519e3308c2507def5da2b26899ae1270db2fb2a3",
+  "timestamp": "2026-10-28T07:44:42.220205Z",
+  "score": 100,
+  "theme": "Decentralized AI-Agent Commercial Liability & Oracle Triggered Indemnity",
+  "blockchain": "Multi-Adapter (API3 / Cardano / EVM L2)",
+  "contract": "TUMOracleInsurance.sol",
+  "reality_check_output": "======================================================================\n    REALITY CHECK HARNESS: tum-insurance-ai ($TUMINS)\n    Chain: Multi-Adapter (API3 / Cardano / EVM L2)\n======================================================================\n[PASS] Gate 1: Conway Non-Linear Invariant State Engine verified (+25)\n[PASS] Gate 2: Smart Contract verified (TUMOracleInsurance.sol) (+25)\n[PASS] Gate 3: Native MCP Tools schema verified (+20)\n[PASS] Gate 4: Interactive Launchpad UI verified (+15)\n[PASS] Gate 5: CI/CD Pipeline & Zero Key Exposure verified (+15)\n----------------------------------------------------------------------\nFINAL REALITY VERIFICATION SCORE: 100/100\nVERDICT: 100/100 GENUINE GREEN - READY FOR PRODUCTION\n======================================================================\n"
+}
